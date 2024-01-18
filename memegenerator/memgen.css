@@ -1,8 +1,3 @@
-.img-container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
 
 #meme-form {
     width: 80%;
@@ -18,6 +13,31 @@
     margin: 8px 0;
     box-sizing: border-box;
     border-radius: 25px;
+}
+
+.container {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-around;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 10rem;
+    margin: 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Top text */
