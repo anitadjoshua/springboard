@@ -1,0 +1,31 @@
+# *****let* and *const* Exercise**
+
+In this exercise, you’ll refactor some ES5 code into ES2015.
+
+## ****ES5 Global Constants****
+
+```jsx
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+```
+use const PI =3.14
+
+
+
+## **Quiz**
+
+- What is the difference between ***var*** and ***let***?
+Can reassign and redeclare with var and can reassign but not redeclare with let. 
+Can access hoisted variable with var. let is block scope
+
+- What is the difference between **var** and ***const***?
+Can reassign and redeclare with var and cannot reassign and redeclare with const. 
+Can access hoisted variable with var. const is block scope
+
+- What is the difference between **let** and **const**?
+Can reassign and cannot redeclare with let and cannot reassign and redeclare with const. 
+
+- What is hoisting?
+Variables are hoisted to the top of the scope that they are declared in.
+var lets you access hoisted variables but they are undefined till they are used later on
+
